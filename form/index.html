@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form playground</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <main>
+        
+        <div class="container">
+
+        
+        <form action="#" method="POST">
+            <label  class="labels" for="fullname">NAME</label>
+            <br>
+            <input id="fullname" type="text" name="fullname">
+            <br>
+            <label  class="labels" for="email">EMAIL</label>
+            <br>
+            <input id="email" type="text" name="email">
+            <br>
+            <label class="labels" for="batch">CHOOSE BATCH</label>
+            <br>
+            <select name="batch">
+                <option value="winter">Winter 2020</option>
+                <option value="spring 2021">Spring 2021</option>
+                <option value="summer 2021">Summer 2021</option>
+            </select>
+            <br>
+            <label  class="labels" for="yes_no_radio">DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1?</label>
+            <br>
+            <input  class="labels radio" id="radio" type="radio" name="yes_no" checked></input>
+            <label for="radio">Yes</label>
+            <br>
+            <input  class="labels radio" id="radio2" type="radio" name="yes_no">
+            <label for="radio2">No</label>
+        
+            <br>
+            <div class="checkboxes">
+                <label class="box labels" for="my_checkbox">CHOOSE YOUR FAVORITE EXERCISES</label>
+                <br>
+                <input class="box" type="checkbox" name="css" value="css">CSS selectors
+                <br>
+                <input class="box" type="checkbox" name="book" value="book">Book Page
+                <br>
+                <input class="box" type="checkbox" name="bel" value="bel">Belfast International KIndergarden
+                <br>
+                <input class="box" type="checkbox" name="crown" value="crown">Crownsnest Retreat
+                <br>
+                <input class="box" type="checkbox" name="google" value="google">Google page
+                <br>
+                <input class="box" type="checkbox" name="docu" value="docu">Documentation page
+                <br>
+                <input class="box" type="checkbox" name="aneta" value="aneta">Aneta Webbie Personal Porfolio
+                <br>
+            </div>
+            <br>
+
+            <label class="labels" for="feedback">WRITE FEEDBACK</label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+            <br>
+
+
+            <div class="submit">
+                <input type="submit" value="SUBMIT">
+            </div>
+            
+        </form>
+
+
+
+
+    </div>
+    </main>
+
+    </label>
+    </form>
+</body>
+
+</html>
+
+<!--<form action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php" method="POST">
+    <input type="hidden" name="foo" value="bar">
+
+    <input type="text" name="my_text" value="" placeholder="Insert text here">
+    <input type="submit" value="Save"  name="submit">
+    <input type="submit" name="submit" value="Delete">
+
+    <textarea name="biography" id="" cols="30" rows="10" placeholder="value"></textarea>
+    <label>
+        Is administrator
+    <input type="checkbox" name="is_admin" value="1" checked="checked">
+    <input id="is_admincheckbox" type="hidden" name="is_admin" value="0"> -->
